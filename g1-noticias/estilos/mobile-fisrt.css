@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    height: 50px;
+    background-color: #C4170C;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+
+}
+
+#menu-hamburguer {
+
+}
+
+.material-symbols-outlined.md-18 { font-size: 18px; }
+.material-symbols-outlined.md-24 { font-size: 24px; }
+.material-symbols-outlined.md-36 { font-size: 36px; }
+.material-symbols-outlined.md-48 { font-size: 48px; }
