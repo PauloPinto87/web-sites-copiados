@@ -7,18 +7,21 @@
 }
 
 header {
-    height: 50px;
+    height: 10vw;
+    min-height: 20px;
+    max-height: 80px;
     background-color: #C4170C;
     color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 8px;
-
 }
 
 header img {
-    height: 30px;
+    height: 6vw;
+    min-height: 20px;
+    max-height: 45px;
 }
 
 #menu-hamburguer {
