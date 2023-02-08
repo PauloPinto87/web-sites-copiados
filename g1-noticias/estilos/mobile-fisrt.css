@@ -40,41 +40,6 @@ header img {
     font-size: 26px;
 }
 
-section {
-    display: flex;
-    flex-direction: column;
-    background-color: #FFFFFF;
-    margin: 15px 0px 15px 0px;
-}
-
-#noticia-capa {
-
-}
-
-section .destaque-noticia {
-    margin: 25px 0px 4px 25px;
-    font-size: 16px;
-    line-height: 17.6px;
-    letter-spacing: -0.3px;
-    color: #333333;
-    font-weight: 600;
-}
-
-section img {
-    margin: 0px 0px 0px 0px;
-    width: 100%;
-    background-color: aqua;
-}
-
-h2, h3{
-    color: #C4170C;
-    margin: 4px 40px 25px 25px;
-    font-size: 20px;
-    letter-spacing: -0.6px;
-    line-height: 22px;
-
-}
-
 a {
     text-decoration: none;
 }
@@ -84,32 +49,76 @@ a:hover {
     cursor: pointer;
 }
 
-section .tempo-assunto{
+.noticia-comum {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    margin: 15px 0px 15px 0px;
+}
+
+.destaque-noticia {
+    margin: 25px 0px 4px 25px;
+    font-size: 16px;
+    line-height: 17.6px;
+    letter-spacing: -0.3px;
+    color: #333333;
+    font-weight: 600;
+}
+
+.titulo-noticia-comum h2{
+    margin: 4px 40px 25px 25px;
+    font-size: 20px;
+    letter-spacing: -0.6px;
+    line-height: 22px;
+    color: #C4170C;
+    text-decoration: none;
+}
+
+.imagem-noticia-comum img{
+    margin: 0px 0px 0px 0px;
+    width: 100%;
+}
+
+.tempo-assunto{
     color: #555555;
     font-size: 12px;
     line-height: 18px;
     letter-spacing: -0.1px;
     font-weight: light;
-    margin: 15px 0px 20px 25px;
+    margin: 10px 0px 18.5px 25px;
 }
 
-hr {
-    border-color: #a2a2a22d;
+.sub-divisao{
     align-self: center;
     width: 88vw;
-    margin: 0px 0px 20px 0px;
+    margin: 0px 0px 16px 0px;
 }
 
-h3 {
+.sub-divisao hr{
+    border-color: #a2a2a22d;
+}
+
+.sub-noticia-comum-1 h3{
+    margin: 10px 10px 22px 25px;
     font-weight: bold;
     font-size: 16px;
     line-height: 17.6px;
     letter-spacing: -0.3px;
+    color: #C4170C;
+}
+
+.sub-noticia-comum-2 h3{
+    margin: 10px 10px 18px 25px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 17.6px;
+    letter-spacing: -0.3px;
+    color: #C4170C;
 }
 
 .fim-section {
     display: none;
-}
+} 
 
 footer {
     background-color: #C4170C;
@@ -137,3 +146,4 @@ footer small {
     line-height: 17.6px;
     letter-spacing: 0.1;
 }
+
